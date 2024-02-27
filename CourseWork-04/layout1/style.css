@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+header, footer, .first, .second {
+    border: 3px solid #c2c2c2;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+}
+
+.first, .second {
+    float: left;
+}
+
+.first {
+    height: 150px;
+    width: 33.3333%;
+}
+
+.second {
+    height: 300px;
+    width: 50%;
+}
